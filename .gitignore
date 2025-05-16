@@ -4,3 +4,5 @@ chrome_dev
 test
 utils
 cookies*
+spider.log
+failed_urls.txt

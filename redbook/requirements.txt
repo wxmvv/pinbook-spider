@@ -1,0 +1,7 @@
+pandas
+selenium
+webdriver_manager
+scrapy
+retrying
+tqdm
+requests

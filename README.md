@@ -1,23 +1,31 @@
-# redbook-spider
+# pinbook-spider
 
- simple scraper for redbook 🍠
+simple scraper for redbook 🍠 and pinterest 🍎
 
- use selenium to login and get data automatically.
+use selenium to login and get data automatically.
 
-## features
+## redbook
+
+### features
 
 - [x] get all post url use profile url
 - [x] get explore post info
 
-## Usage
+### Usage
 
-1. Run the chrome for redbook, and login with your account.
+1. Install requirements.
+
+```bash
+pip install -r redbook/requirements.txt
+```
+
+2. Run the chrome for redbook, open url "<https://www.xiaohongshu.com>" and login with your account , and keep the window open.
 
 ```bash
 sh redbook/start_chrome.sh
 ```
 
-2. Run the scraper for redbook.
+3. Run the scraper for redbook.
 
 ```bash
 python redbook/redbook.py
